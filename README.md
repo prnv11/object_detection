@@ -21,11 +21,11 @@ The assignment is divided into two primary tasks:
 .
 ├── 2310110555_Assignment5.ipynb   # Main Jupyter Notebook with code & results
 ├── test_images/                   # Sample images used for Task 1 inference
-│   ├── table_chairs.png           # Dining set (furniture detection)
-│   ├── man_dog.png                # Person walking a dog
-│   ├── signatures.png             # Handwritten signatures grid
-│   ├── coffee_table.png           # Living room setup
-│   └── man_dogs_snow.png          # Person with two dogs in snow
+│   ├── table_chairs.jpg           # Dining set (furniture detection)
+│   ├── man_dog.jpg                # Person walking a dog
+│   ├── signatures.jpg             # Handwritten signatures grid
+│   ├── coffee_table.jpg           # Living room setup
+│   └── man_dogs_snow.jpg          # Person with two dogs in snow
 ├── signature_dataset/             # Custom signature dataset folder
 └── README.md                      # Project documentation
 ```
@@ -58,7 +58,7 @@ from ultralytics import YOLO
 model = YOLO("yolo11n.pt")
 
 # Run inference on test images
-results = model("test_images/man_dog.png")
+results = model("test_images/man_dog.jpg")
 results[0].show()
 ```
 
