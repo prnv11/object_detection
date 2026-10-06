@@ -1,14 +1,11 @@
-# ECE304 - AI & Machine Learning: Assignment 5 (YOLO11n Object Detection)
-
-**Student Name:** Pranav Talwar  
-**Roll No:** 2310110555  
+# YOLO11n Object Detection
 
 ---
 
 ## 📌 Project Overview
-This repository contains **Assignment 5** for the ECE304 Artificial Intelligence and Machine Learning course. The project explores Object Detection using the state-of-the-art **YOLO11n** model provided by Ultralytics.
+The project explores Object Detection using the state-of-the-art **YOLO11n** model provided by Ultralytics.
 
-The assignment is divided into two primary tasks:
+The project is divided into two primary tasks:
 1. **Task 1 – Multi-Object Detection using Pre-trained YOLO11n:**  
    Evaluates out-of-the-box multi-object detection capability using YOLO11n pre-trained on the MS COCO dataset on custom test images.
 2. **Task 2 – Custom Fine-Tuning for Signature Detection:**  
@@ -69,6 +66,3 @@ model.train(data="signature_dataset/data.yaml", epochs=50, imgsz=640)
 ```
 
 ---
-
-## 📄 License
-This repository is submitted as part of academic coursework for ECE304 at Shiv Nadar Institution of Eminence (SNIoE).
